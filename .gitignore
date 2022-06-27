@@ -1,0 +1,6 @@
+/CCMBlogAPI/node_modules
+/CCMBlogFront/node_modules
+/CCMBlogScraper/node_modules
+.env
+
+

@@ -1,0 +1,12 @@
+.posts{
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .container header .header-nav-area #nav_container  {
+        display:flex;
+    }
+}

@@ -1,0 +1,80 @@
+.top {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: sticky;
+    color: dimgrey;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Azeret Mono', monospace;
+    z-index: 999;
+    cursor: none;
+}
+.a{cursor: none;}
+
+.topCenter{
+    flex: 6;
+}
+.topLeft, .topRight{
+    flex:3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.topIcon{
+    font-size: 24px;
+    margin-right: 10px;
+    color: dimgrey;
+    cursor: default;
+}
+
+.topSearchIcon{
+    color: dimgrey;
+    font-size: 24px;
+    margin-left: 15px;
+    cursor: default;
+}
+
+.topList{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    cursor: default;
+}
+
+.tpl{
+    margin-right: 20px;
+    font-size: 24px;
+    font-weight: 300;
+    transition: all .5s ease;
+    color: darkseagreen;
+    border: none;
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    background-color : transparent;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+}
+
+.tpl:hover {
+    color: #001F3F;
+    background-color: #a6ceb0;
+}
+

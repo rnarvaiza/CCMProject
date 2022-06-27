@@ -1,0 +1,39 @@
+.header{
+    margin-top: 60px;
+}
+
+.headerTitles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Lora", serif;
+
+}
+
+.headerTitleSm{
+    position: absolute;
+    top: 7%;
+    font-size: 44px;
+    color: #889331;
+}
+
+.headerTitleLg{
+    position: absolute;
+    top: 12%;
+    font-size: 120px;
+    color: #dfa35c;
+}
+
+.headerImg{
+    width: 100%;
+    height: 450px;
+    margin-top: 80px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .container header .header-nav-area #nav_container  {
+        display:flex;
+    }
+}

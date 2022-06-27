@@ -1,0 +1,195 @@
+.singlePost{
+    flex: 9;
+    font-family: 'Cutive Mono', monospace;
+
+}
+.singlePostWrapper{
+    padding: 20px;
+    padding-right: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.singlePostImg{
+    width:100%;
+    height: 250px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.singlePostTittle{
+    text-align: center;
+    margin: 10px;
+    font-size: 28px;
+}
+
+.singlePostTittleInput{
+    text-align: center;
+    margin: 10px;
+    font-size: 28px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding: 16px;
+    background-color: #f4fff0;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.singlePostTittleInput:focus{
+    outline: none;
+}
+
+.singlePostEdit{
+    float: right;
+    font-size: 16px;
+}
+
+.singlePostIcon{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.singlePostIcon:first-child{
+    color: teal;
+}
+
+.singlePostIcon:last-child{
+    color: tomato;
+}
+
+.singlePostInfo{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: chocolate;
+    font-family: 'Cutive Mono', monospace;
+}
+
+.singlePostDesc{
+    color: #999999;
+    font-size: 16px;
+    line-height: 25px;
+    resize: none;
+    border-radius: 30px;
+    border: none;
+    width: 25%;
+    max-width: 140ch;
+    text-align: center;
+}
+
+.singlePostDesc::first-letter{
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.singlePostDescInput{
+    resize: none;
+    border: none;
+    color: #999999;
+    font-size: 16px;
+    line-height: 25px;
+    background-color: #f4fff0;
+    border-radius: 15px;
+    margin-bottom: 24px;
+    margin-left: 15px;
+    height: 6vw;
+    border-bottom: 1px solid lightgray;
+}
+
+.singlePostDescInput:focus{
+    outline: none;
+}
+
+.singlePostButton{
+    width: 100px;
+    border: none;
+    background-color: teal;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    align-self:flex-end;
+    margin-top: 10px;
+}
+
+.singlePostItemsB, .singlePostItemsC{
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    font-size: 16px;
+}
+.fixedInput{
+    color: black;
+    width: inherit;
+    border-bottom: 1px solid lightgray;
+}
+
+.og, .fg, .mTemp, .bt, .mTime, .styles{
+    font-size: 16px;
+    border: none;
+    padding: 25px;
+    display: flex;
+    background-color: rgba(239, 239, 239, 0.3);
+    border-radius: 30px;
+    width: 150px;
+    margin-bottom: 4px;
+    align-items: flex-start;
+    border-bottom: 1px solid lightgray;
+}
+.malts, .hops, .otherAggregates, .water{
+    font-size: 16px;
+    border: none;
+    padding: 25px;
+    display: flex;
+    background-color: rgba(239, 239, 239, 0.3);
+    border-radius: 30px;
+    width: 550px;
+    height: 80px;
+    margin-bottom: 4px;
+    align-items: flex-start;
+    border-bottom: 1px solid lightgray;
+}
+
+.postDescrip, .ogFather, .maltsFather, .fgFather, .mTempFather, .mTimeFather, .btFather, .styleFather, .hopsFather, .otherAggregatesFather, .waterFather{
+    display: flex;
+    flex-direction: column;
+    margin-right: 16px;
+}
+
+
+
+.singlePostDescLegend, .ogLegend, .fgLegend, .mTempLegend, .mTimelegend, .btLegend, .stylesLegend, .maltsLegend, .hopsLegend, .otherAggregatesLegend, .waterLegend{
+    font-size: 12px;
+    text-align: center;
+    color: #889331;
+    font-family: 'Anton', sans-serif;
+}
+
+.maltsInputE, .hopsInputE, .otherAggregatesInputE, .waterInputE {
+    display: flex;
+    resize: none;
+    border: none;
+    color: #999999;
+    font-size: 16px;
+    background-color: #f4fff0;
+    border-radius: 15px;
+    margin-bottom: 24px;
+    margin-right: 32px;
+    margin-left: 48px;
+    width: 700px;
+    height: 6vw;
+    border-bottom: 1px solid lightgray;
+}
+
+.singlePostItemsD{
+    width: 100%;
+}
+
+.dealLink{
+    margin: 25px;
+    text-align: center;
+}

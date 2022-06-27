@@ -1,0 +1,87 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+            rgba(255,255,255,1),
+            rgba(255,255,255, 0.2)
+    ),
+    url("https://images.pexels.com/photos/6502324/pexels-photo-6502324.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+}
+
+.registerTitle{
+    font-size: 90px;
+    color: dimgrey;
+}
+
+.registerForm{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    color: dimgrey;
+}
+
+.registerForm > label{
+    margin: 10px 0;
+}
+
+.registerInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.registerButton{
+    position: relative;
+    margin-top: 20px;
+    background-color: #dfa35c;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    transition: all 0.5s;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+.registerLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 30px;
+    background-color: #889331;
+    border: none;
+    width: 180px;
+    height: 35px;
+    color: white;
+    border-radius: 10px;
+    transition: all 0.5s;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+    display: inline-block;
+}
+
+.buttonForm:after{
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.buttonForm:hover{
+    padding-right: 24px;
+    padding-left:8px;
+}
+
+.cc:hover:after {
+    opacity: 60%;
+    right: 60px;
+}
+.d:hover:after {
+    opacity: 60%;
+    right: 60px;
+}
+

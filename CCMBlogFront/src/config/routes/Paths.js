@@ -1,0 +1,9 @@
+export const LOGIN = '/login';
+export const HOME = '/';
+export const REGISTER = '/register';
+export const SETTINGS = '/settings';
+export const WRITE = '/write';
+export const POST_ID = '/post/:postId';
+export const POSTS = '/posts';
+export const POST = '/post/';
+export const USERS = '/users/';
